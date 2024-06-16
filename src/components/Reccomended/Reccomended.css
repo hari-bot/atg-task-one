@@ -1,0 +1,8 @@
+.follow{
+    background-color: gainsboro;
+}
+
+.followed{
+    background-color: black;
+    color: white;
+}

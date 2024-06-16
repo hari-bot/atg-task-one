@@ -1,0 +1,5 @@
+.location-input, .location-input:active {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}

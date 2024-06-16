@@ -1,0 +1,15 @@
+.modal{
+    background-color: rgba(0, 0, 0,0.8);
+    position: absolute;
+    height: 100vh;
+}
+
+.cls-btn{
+    top: "100px";
+    left: "500px";
+    z-index: 1060;
+}
+
+.no-scroll {
+    overflow: hidden;
+  }
