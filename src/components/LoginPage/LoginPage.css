@@ -4,12 +4,28 @@
     height: 100vh;
 }
 
-.cls-btn{
-    top: "100px";
-    left: "500px";
-    z-index: 1060;
-}
-
 .no-scroll {
     overflow: hidden;
+  }
+
+
+  .cls-btn {
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+    padding: 10% 25%;
+    z-index: 1050;
+  }
+  
+  @media (max-width: 992px) {
+    .cls-btn {
+      margin: 10px;
+      padding: 10px 20px;
+    }
+
+    .modal-content{
+        margin-top: 150px;
+    }
+
+
   }

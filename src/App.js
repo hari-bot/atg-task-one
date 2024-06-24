@@ -13,6 +13,7 @@ import MeetupPost from "./components/MeetupPost/MeetupPost";
 import JobPost from "./components/JobPost/JobPost";
 import LoginPage from "./components/LoginPage/LoginPage";
 import { useState, useEffect } from "react";
+import MobileButton from "./components/MobileButton/MobileButton";
 
 const App = () => {
   const [showLoginPage, setShowLoginPage] = useState(false);
@@ -62,6 +63,7 @@ const App = () => {
             </div>
           </div>
         </div>
+        <MobileButton />
       </div>
     </>
   );

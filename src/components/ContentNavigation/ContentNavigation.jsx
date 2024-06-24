@@ -3,7 +3,6 @@ import "./ContentNavigation.css";
 const ContentNavigation = ({ isLoggedIn }) => {
   return (
     <div className="container my-4">
-      {/* For Big Screens */}
       <div className="d-none d-md-flex justify-content-between align-items-center border-bottom">
         <nav className="nav nav-tabs">
           <div className="nav-item active">All Post(32)</div>
@@ -30,10 +29,9 @@ const ContentNavigation = ({ isLoggedIn }) => {
         </div>
       </div>
 
-      {/* For Mobile */}
       <div className="d-block d-md-none">
         <div className="d-flex justify-content-between">
-          <p className="fw-bold">Bold text.</p>
+          <p className="fw-bold">Post(32)</p>
           <button className="btn btn-light dropdown-toggle me-2">
             Filter All
           </button>

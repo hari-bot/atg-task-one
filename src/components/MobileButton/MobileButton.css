@@ -1,0 +1,18 @@
+.mobile-btn {
+    border: none;
+    background-color: #fc5b66;
+    border-radius: 100%;
+    padding: 10px 14px;
+    color: white;
+    display: none;
+    z-index: 1000;
+}
+
+@media (max-width: 767px) {
+    .mobile-btn {
+        display: block;
+        position: fixed; 
+        bottom: 10px; 
+        right: 10px; 
+    }
+}

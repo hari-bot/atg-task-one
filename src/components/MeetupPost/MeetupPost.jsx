@@ -1,11 +1,9 @@
+import post_3 from "../../images/post_3.jpg";
+
 const MeetupPost = () => {
   return (
     <div className="card shadow-sm mb-4">
-      <img
-        src="https://dont-copy.netlify.app/assets/car-kZ9O3U5Q.jpg"
-        alt="Nature"
-        className="card-img-top"
-      />
+      <img src={post_3} alt="Nature" className="card-img-top" />
       <div className="card-body">
         <h3 className="card-title">🗓️ Meetup</h3>
         <div className="d-flex justify-content-between align-items-center mb-3">

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import signUp from "../../images/signup.svg";
 import "./LoginPage.css";
 
 const LoginPage = ({ toggleShowLogin, handleLogin }) => {
@@ -17,7 +18,7 @@ const LoginPage = ({ toggleShowLogin, handleLogin }) => {
     >
       <button
         type="button"
-        className="btn position-absolute text-white cls-btn"
+        className="btn position-absolute top-0 end-0 text-white cls-btn"
         onClick={toggleShowLogin}
       >
         <i className="bi bi-x-circle-fill"></i>
@@ -117,10 +118,7 @@ const LoginPage = ({ toggleShowLogin, handleLogin }) => {
                 </div>
                 <div className="col">
                   <div className="d-flex flex-column">
-                    <img
-                      src="https://dont-copy.netlify.app/assets/signup-OCG-APNN.svg"
-                      alt="atg-illustration"
-                    />
+                    <img src={signUp} alt="atg-illustration" />
                     <small className="my-1 text-secondary">
                       By signing up, you agree to our Terms & conditions,
                       Privacy policy
