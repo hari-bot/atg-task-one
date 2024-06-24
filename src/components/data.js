@@ -20,6 +20,6 @@ export const posts = [
       "  I’ve worked in UX for the better part of a decade. From now on, I plan",
     profileImage:
       "https://dont-copy.netlify.app/assets/15d7211204149d93adda6dfafb5d81f2-08Q1wamp.jpg",
-    profileName: "Natasha",
+    profileName: "Natasha Goyal",
   },
 ];
